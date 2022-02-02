@@ -1,0 +1,21 @@
+Package: temaPersonal
+Title: Crea elegantes graficos aplicanto el tema a graficos de ggplot2
+Version: 1.0.0.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: El tema fue creado para personalizar los graficos segun mis requerimientos,
+            aplicando los colores y configuraciones de ejes, titulos leyendas,
+            se crea el paquete para facilitar aplicar la misma configuración a todos los grtaficos
+            y no hacer de esta tarea una rutina a repetir en cada grafico.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    ggplot2,
+    ggthemes,
+    gridExtra,
+    showtext,
+    stringr
+    

@@ -1,6 +1,7 @@
 # temaPersonal
 
-instalación
+instalación.
+
 Puede instalar la versión de desarrollo de regexcite desde GitHub con:
 
-devtools::install_github("jennybc/regexcite")
+devtools::install_github("jcardenashh/temaPersonal")

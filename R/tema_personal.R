@@ -41,7 +41,7 @@ tema_personal <- function(){
 
   }
 
-  showtext::showtext.auto()
+  showtext::showtext_auto()
   base_size = 14
   base_family = "Roboto"
 

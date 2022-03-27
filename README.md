@@ -2,6 +2,6 @@
 
 instalación.
 
-Puede instalar la versión de desarrollo de regexcite desde GitHub con:
+Puede instalar desde GitHub con:
 
 devtools::install_github("jcardenashh/temaPersonal")

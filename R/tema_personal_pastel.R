@@ -1,11 +1,15 @@
 
 
-#' Tema para graficos  de pastel y donas
-#' elimina los ejes de un grafico convencional
+#' Tema para gráficos de tipo pastel y donas
+
+#' @description Función para aplicar tema a graficos de pastel, elimina los ejes de un gráfico convencional
+
 #' @return
 #' @export
 #'
 #' @examples tema_personal_pastel(grafico_donus)
+#'
+#' @importFrom ggplot2 theme
 tema_personal_pastel <- function(){
 
   tema_personal() +

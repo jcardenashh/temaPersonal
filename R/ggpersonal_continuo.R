@@ -1,5 +1,5 @@
 
-#' configurar graficos continuos, coordenadas y colores
+#' configurar gráficos continuos, coordenadas y colores
 #'
 #' @param grafico object " Grafico a personalizar"
 #'

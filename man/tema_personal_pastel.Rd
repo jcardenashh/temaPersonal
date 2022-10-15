@@ -2,18 +2,14 @@
 % Please edit documentation in R/tema_personal_pastel.R
 \name{tema_personal_pastel}
 \alias{tema_personal_pastel}
-\title{Tema para graficos  de pastel y donas
-elimina los ejes de un grafico convencional}
+\title{Tema para gráficos de tipo pastel y donas}
 \usage{
 tema_personal_pastel()
 }
-\value{
-
-}
 \description{
-Tema para graficos  de pastel y donas
-elimina los ejes de un grafico convencional
+Función para aplicar tema a graficos de pastel, elimina los ejes de un gráfico convencional
 }
 \examples{
 tema_personal_pastel(grafico_donus)
+
 }

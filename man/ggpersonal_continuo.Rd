@@ -2,7 +2,7 @@
 % Please edit documentation in R/ggpersonal_continuo.R
 \name{ggpersonal_continuo}
 \alias{ggpersonal_continuo}
-\title{configurar graficos continuos, coordenadas y colores}
+\title{configurar gráficos continuos, coordenadas y colores}
 \usage{
 ggpersonal_continuo(grafico)
 }
@@ -13,7 +13,7 @@ ggpersonal_continuo(grafico)
 object "Grafico configurado
 }
 \description{
-configurar graficos continuos, coordenadas y colores
+configurar gráficos continuos, coordenadas y colores
 }
 \examples{
 ggpersonal_continuo(grafico_lineas)

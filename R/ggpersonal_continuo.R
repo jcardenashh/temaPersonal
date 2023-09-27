@@ -6,7 +6,9 @@
 #' @return object "Grafico configurado
 #' @export
 #'
-#' @examples ggpersonal_continuo(grafico_lineas)
+#' @examples
+#' grafico_lineas = ggplot(economics, aes(date, unemploy)) + geom_line()
+#' ggpersonal_continuo(grafico_lineas)
 ggpersonal_continuo <- function(grafico){
   # para graficos variables continuas
   grafico+

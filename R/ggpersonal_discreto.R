@@ -10,7 +10,11 @@
 #' @return object "Grafico configurado
 #' @export
 #'
-#' @examples ggpersonal_discreto(grafico_barra)
+#' @examples
+#' data("mtcars")
+#' grafico_barra = ggplot(mpg, aes(class)) + geom_bar()
+#' ggpersonal_discreto(grafico_barra)
+
 
 ggpersonal_discreto <- function(grafico){
   # para graficos variables discretas

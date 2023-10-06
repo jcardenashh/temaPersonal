@@ -16,5 +16,6 @@ object "Grafico configurado
 configurar gráficos continuos, coordenadas y colores
 }
 \examples{
+grafico_lineas = ggplot(economics, aes(date, unemploy)) + geom_line()
 ggpersonal_continuo(grafico_lineas)
 }

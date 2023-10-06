@@ -16,5 +16,7 @@ object "Grafico configurado
 configurar graficos discretos,colores
 }
 \examples{
+data("mtcars")
+grafico_barra = ggplot(mpg, aes(class)) + geom_bar()
 ggpersonal_discreto(grafico_barra)
 }

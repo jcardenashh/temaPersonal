@@ -10,6 +10,9 @@ tema_personal_pastel()
 Función para aplicar tema a graficos de pastel, elimina los ejes de un gráfico convencional
 }
 \examples{
-tema_personal_pastel(grafico_donus)
-
+df = data.frame( categorias = c("cat1","cat2","cat3","cat4"), porcentaje = c(25,20,15,40))
+ggplot(df,aes(x = "",y = porcentaje, fill = categorias))+
+  geom_bar(stat = "identity",color="white")+
+  coord_polar(theta="y") +
+  tema_personal_pastel()
 }

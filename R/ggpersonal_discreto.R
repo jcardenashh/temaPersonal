@@ -11,10 +11,11 @@
 #' @export
 #'
 #' @examples
+#' library(ggplot2,temaPersonal)
+#' theme_set(tema_personal())
 #' data("mtcars")
-#' grafico_barra = ggplot(mpg, aes(class)) + geom_bar()
+#' grafico_barra = ggplot(mpg, aes(class)) + geom_bar(fill="tomato")
 #' ggpersonal_discreto(grafico_barra)
-
 
 ggpersonal_discreto <- function(grafico){
   # para graficos variables discretas
@@ -23,3 +24,4 @@ ggpersonal_discreto <- function(grafico){
     ggthemes::scale_fill_tableau()+
     ggplot2::guides(colour = guide_legend(override.aes = list(size=3))) # tamaño simbolos leyendas
 }
+

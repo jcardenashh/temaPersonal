@@ -16,7 +16,10 @@ object "Grafico configurado
 configurar graficos discretos,colores
 }
 \examples{
+library(ggplot2,temaPersonal)
+theme_set(tema_personal())
 data("mtcars")
-grafico_barra = ggplot(mpg, aes(class)) + geom_bar()
+grafico_barra = ggplot(mpg, aes(class)) + geom_bar(fill="tomato")
 ggpersonal_discreto(grafico_barra)
 }
+

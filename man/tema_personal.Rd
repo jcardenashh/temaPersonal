@@ -12,3 +12,4 @@ Tema para graficos ggplot2
 \examples{
 ggplot2::theme_set(tema_personal())
 }
+

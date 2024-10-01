@@ -24,4 +24,3 @@ ggpersonal_discreto <- function(grafico){
     ggthemes::scale_fill_tableau()+
     ggplot2::guides(colour = guide_legend(override.aes = list(size=3))) # tamaño simbolos leyendas
 }
-

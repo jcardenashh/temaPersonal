@@ -10,7 +10,7 @@
 tema_personal <- function(){
   # element_text para la fuente
   # element_line() para las lineas
-  # element_rect(fill="grey80",colour="red",size=2,linetype=5)  rectangulo como en los backgroup
+  # element_rect(fill="grey80",colour="red",linewidth=2,linetype=5)  rectangulo como en los backgroup
   #element_black() no dibuja nada "panel.grid.minor = element_blank()"
 
   #  color= puntos y lineas
@@ -56,8 +56,8 @@ tema_personal <- function(){
     # lineas, rectangulos y texto
     # tipos de lineas disponibles en R 0 = blank, 1 = solid, 2 = dashed, 3 = dotted, 4 = dotdash, 5 = longdash, 6 = twodash
     # las lineas se pueden especificar usando nombre o el número
-    line = element_line(color = color0, size = 1, linetype = 1, lineend = "butt"),
-    rect = element_rect(fill = color00, colour = color0, size = 1, linetype = 1),
+    line = element_line(color = color0, linewidth = 1, linetype = 1, lineend = "butt"),
+    rect = element_rect(fill = color00, color = color0, linewidth =1, linetype = 1),
     text = element_text(family = base_family, face = "plain", colour = color0, size = base_size, hjust = 0.5, vjust = 0.5, angle = 0, lineheight = 0.9),
 
     plot.margin = margin(t=0.5,r=0.5, b=0.5, l=0.5,"cm"),
@@ -106,11 +106,11 @@ tema_personal <- function(){
     # se pueden configurar global o de forma individual eje x y eje y
 
     ## lineas ----
-    ,axis.line=element_line(colour = color4,size = 1,linetype = "solid")
+    ,axis.line=element_line(colour = color4,linewidth = 1,linetype = "solid")
     #,axis.line=element_blank()
 
     ## marcas de datos -----
-    ,axis.ticks = element_line(colour = color4,size = 1,linetype = "solid")
+    ,axis.ticks = element_line(colour = color4,linewidth = 1,linetype = "solid")
     ,axis.ticks.length = unit(0.2, "cm") #largo de la linea
 
     ## titulos o etiquetas  ------
@@ -201,7 +201,7 @@ tema_personal <- function(){
     #,panel.margin = margin(t=0,r=0, b=0, l=0,"cm") en desuso
 
     #lineas verticales y horizontales
-    ,panel.grid.major=element_line(color=color11,size=0.5, linetype="dotted")
+    ,panel.grid.major=element_line(color=color11,linewidth=0.5, linetype="dotted")
     #,panel.grid.minor = element_line(colour = "white", size = 0.2,linetype = 5)
     ,panel.grid.major.x = element_blank()
     ,panel.grid.minor.x = element_blank()
@@ -218,3 +218,4 @@ tema_personal <- function(){
 
 
 }
+

@@ -11,6 +11,7 @@
 #' theme_set(tema_personal())
 #' grafico_lineas = ggplot(economics, aes(date, unemploy)) + geom_line(color="tomato")
 #' ggpersonal_continuo(grafico_lineas)
+
 ggpersonal_continuo <- function(grafico){
   # para graficos variables continuas
   grafico+

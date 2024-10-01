@@ -1,6 +1,6 @@
 Package: temaPersonal
 Title: Crea elegantes gráficos, aplicando el tema a gráficos de ggplot2
-Version: 1.0.0.1
+Version: 1.0.0.3
 Authors@R: 
     person("Johnys", "Cárdenas", , "cardenasjohnys@gmail.com", role = c("aut", "cre"))
 Description: Se crea el paquete para facilitar y aplicar la misma configuración a todos los gráficos de ggplot2,
@@ -9,7 +9,7 @@ License: GPL-3
 Encoding: UTF-8
 URL: https://github.com/jcardenashh/temaPersonal
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports: 
     ggplot2,
     ggthemes,

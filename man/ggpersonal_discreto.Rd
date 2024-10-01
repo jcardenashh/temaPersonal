@@ -22,4 +22,3 @@ data("mtcars")
 grafico_barra = ggplot(mpg, aes(class)) + geom_bar(fill="tomato")
 ggpersonal_discreto(grafico_barra)
 }
-

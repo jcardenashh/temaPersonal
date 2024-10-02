@@ -13,7 +13,7 @@ Tema oscuro para graficos ggplot2, crea gráficos ideales para presentaciones
 library(ggplot2,temaPersonal)
 data <- data.frame(x = 1:10,y = c(2, 3, 5, 7, 11, 13, 17, 19, 23, 29))
 ggplot(data, aes(x = x, y = y)) +
- geom_line(color = "yellow", size = 1) +
+ geom_line(color = "yellow", linewidth = 1) +
  geom_point(size = 3,color="yellow") +
  labs(title = "Gráfico de Ejemplo",
       subtitle = "Uso del tema_personal en ggplot2",

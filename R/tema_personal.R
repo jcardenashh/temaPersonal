@@ -5,7 +5,8 @@
 #'
 #'
 #' @export
-#' @examples ggplot2::theme_set(tema_personal())
+#' @examples library(ggplot2)
+#' theme_set(tema_personal())
 
 tema_personal <- function(){
   # element_text para la fuente

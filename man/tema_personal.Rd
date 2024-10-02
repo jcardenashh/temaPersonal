@@ -10,5 +10,6 @@ tema_personal()
 Tema para graficos ggplot2
 }
 \examples{
-ggplot2::theme_set(tema_personal())
+library(ggplot2)
+theme_set(tema_personal())
 }
